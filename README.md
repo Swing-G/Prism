@@ -1,7 +1,36 @@
-# Tauri + React + Typescript
+# 🌈 Prism (棱镜)
 
-This template should help get you started developing with Tauri, React and Typescript in Vite.
+**“白光入，光谱出 —— 让思维以最高效的方式直达 AI。”**
 
-## Recommended IDE Setup
+## 💡 为什么要做 Prism？
 
-- [VS Code](https://code.visualstudio.com/) + [Tauri](https://marketplace.visualstudio.com/items?itemName=tauri-apps.tauri-vscode) + [rust-analyzer](https://marketplace.visualstudio.com/items?itemName=rust-lang.rust-analyzer)
+在日常开发中，无论是在 IDE 里与代码助手结对编程，还是在浏览器里向大模型寻求架构建议，我们追求的永远是 **Low Friction（低摩擦）** 的心流状态。
+
+然而，现实是我们常常陷入“提示词焦虑”：为了得到完美的回答，不得不花费精力去生硬地拼凑“你是一个资深专家...”、“请遵循以下约束...”这样的模板废话。这完全违背了使用 AI 提效的初衷。
+
+**Prism** 正是为了打碎这种摩擦而生。它本质上是一个**OS 级的意图转译层（Intent Translation Layer）**。就像在复杂的 Agent 系统中处理原始 Query 一样，Prism 在前端拦截你的“大白话”或“碎碎念”，在后台利用大模型进行降噪、扩充与结构化重塑，最终化为精准的指令。
+
+你只管随心所欲地表达，剩下的“套话”，交给棱镜去折射。
+
+## ✨ 核心特性
+
+* ⚡️ **全局闪电唤起**：无论你身处哪个应用，按下 Alt + Space 瞬间呼出极简输入框。
+
+* 🧠 **无感意图转译**：内置经过优化的 Prompt 模板（如 CO-STAR 框架），自动将口语重构为带有 Role、Context 和 Constraints 的高阶提示词。
+
+* 🎯 **光速自动注入**：摒弃繁琐的复制粘贴。重构完成后，自动模拟系统按键，将完美提示词“射”入你当前正在使用的光标位置。
+
+* 🍱 **Bento Grid 极简美学**：界面采用现代化便当盒设计语言，专注输入，拒绝视觉干扰。
+
+* 🪶 **极致轻量运行**：基于 Tauri 2.0 + Rust 打造，内存占用仅需数十兆，常驻后台毫无感知。
+
+## 🛠️ 技术栈
+
+* **框架**: Tauri 2.0
+
+* **前端**: React + TypeScript + Tailwind CSS
+
+* **后端/系统级交互**: Rust (负责全局快捷键监听与系统剪贴板/按键模拟)
+
+* **大模型接入**: 支持接入 OpenAI 兼容格式的高速 API (如 DeepSeek-V3 等)
+>>>>>>> a40c955f311c8e2360877caa5f40dbc644dd22ce

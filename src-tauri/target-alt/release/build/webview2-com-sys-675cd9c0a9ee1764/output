@@ -1,0 +1,2 @@
+cargo:rustc-link-search=native=d:\Java\Java_Projects\Prism\prism\src-tauri\target-alt\release\build\webview2-com-sys-675cd9c0a9ee1764\out\x64
+cargo:rustc-link-lib=advapi32

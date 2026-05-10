@@ -1,0 +1,1 @@
+["\\\\?\\C:\\Users\\29372\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\tauri-2.11.1\\scripts\\bundle.global.js","\\\\?\\C:\\Users\\29372\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\tauri-plugin-global-shortcut-2.3.1\\api-iife.js","\\\\?\\C:\\Users\\29372\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\tauri-plugin-opener-2.5.4\\api-iife.js"]
